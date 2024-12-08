@@ -28,3 +28,5 @@ pet.eat()
 pet.play()
 pet.sleep()
 pet.status()
+
+print()
