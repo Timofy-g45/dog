@@ -1,11 +1,11 @@
 class Pet:
     def __init__(self, name):
         self.name = name
-        self.hunger = 5
+        self.hunger = 6
 
     def feed(self):
         print(f"{self.name} поїв")
-        self.hunger += 1
+        self.hunger += 12
         if self.hunger < 0:
             self.hunger = 0
 
